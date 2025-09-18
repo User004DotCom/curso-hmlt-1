@@ -8,7 +8,6 @@
 body {
     background-color: #000000;
     color: #F6F6F6;
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -40,6 +39,11 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.presentacion__contenido__texto:hover {
+    background-color: #272727;
+    border-radius: 10px;
+}
+
 .presentacion__enlaces {
     display: flex;
     justify-content: space-between;
@@ -59,10 +63,29 @@ body {
     text-decoration: none;
     color: #F6F6F6;
     border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.presentacion__enlaces__link:hover {
+    background-color: #272727;
+    border: 2px solid #0000FF;
+    cursor: pointer;
 }
 
 .presentacion__enlaces_subtitulo {
     font-family: "krona One", sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: #22D4FD;
+    padding: 24px;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
